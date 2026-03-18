@@ -1,3 +1,5 @@
+"use client";
+
 export default function BlogHero() {
   return (
     <section className="w-full py-20 px-8 md:px-16 bg-white">

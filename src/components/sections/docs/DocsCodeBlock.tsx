@@ -1,3 +1,5 @@
+"use client";
+
 export default function DocsCodeBlock({ code, language = "javascript" }: { code: string; language?: string }) {
   return (
     <div className="my-4 rounded-xl overflow-hidden">
