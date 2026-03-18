@@ -2,7 +2,6 @@
 
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 const docSections = [
   {
