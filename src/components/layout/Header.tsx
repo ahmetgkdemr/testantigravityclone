@@ -1,5 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
+import Link from "next/link";
 import { ChevronDown, Download, Zap, Layers, Terminal, BookOpen, Video, FileText, HelpCircle, Users } from "lucide-react";
 
 const DROPDOWNS: Record<string, { icon: React.ReactNode; label: string; desc: string }[]> = {
@@ -49,8 +50,8 @@ export function Header() {
   const NAV = [
     { label: "Product", href: "#features" },
     { label: "Use Cases", dropdown: true },
-    { label: "Pricing", href: "#pricing" },
-    { label: "Blog", href: "#blog" },
+    { label: "Pricing", href: "/pricing" },
+    { label: "Blog", href: "/blog" },
     { label: "Resources", dropdown: true },
   ];
 
@@ -64,12 +65,12 @@ export function Header() {
         borderBottom: "1px solid rgba(0,0,0,0.06)",
       }}
     >
-      <a href="#" className="flex items-center gap-2 select-none">
+      <Link href="/" className="flex items-center gap-2 select-none">
         <AIcon />
         <span style={{ fontFamily: "'Google Sans Flex', sans-serif", fontSize: "15px", fontWeight: 500, color: "#1a1a1a", letterSpacing: "-0.01em" }}>
           Google <span style={{ fontWeight: 400 }}>Antigravity</span>
         </span>
-      </a>
+      </Link>
 
       <nav className="hidden md:flex items-center gap-1">
         {NAV.map((item) => (
@@ -98,8 +99,8 @@ export function Header() {
                 />
               </button>
             ) : (
-              <a
-                href={item.href}
+              <Link
+                href={item.href || "#"}
                 onMouseEnter={() => setHovered(item.label)}
                 onMouseLeave={() => setHovered(null)}
                 className="flex items-center gap-1 px-3 py-2 rounded-full transition-colors"
@@ -112,7 +113,7 @@ export function Header() {
                 }}
               >
                 {item.label}
-              </a>
+              </Link>
             )}
 
             {item.dropdown && open === item.label && (
@@ -126,26 +127,29 @@ export function Header() {
                   animation: "fade-in 0.15s ease-out",
                 }}
               >
-                {DROPDOWNS[item.label]?.map((entry) => (
-                  <a
-                    key={entry.label}
-                    href="#"
-                    className="flex items-start gap-3 px-4 py-3 transition-colors"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                    onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#f8f9fa")}
-                    onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "transparent")}
-                  >
-                    <span style={{ color: "#5f6368", marginTop: "2px", flexShrink: 0 }}>{entry.icon}</span>
-                    <div>
-                      <div style={{ fontFamily: "'Google Sans Flex', sans-serif", fontSize: "14px", fontWeight: 500, color: "#1a1a1a" }}>
-                        {entry.label}
+                {DROPDOWNS[item.label]?.map((entry) => {
+                  const href = entry.label === "Documentation" ? "/docs" : entry.label === "Support" ? "/contact" : entry.label === "Blog" ? "/blog" : "#";
+                  return (
+                    <Link
+                      key={entry.label}
+                      href={href}
+                      className="flex items-start gap-3 px-4 py-3 transition-colors"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                      onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#f8f9fa")}
+                      onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "transparent")}
+                    >
+                      <span style={{ color: "#5f6368", marginTop: "2px", flexShrink: 0 }}>{entry.icon}</span>
+                      <div>
+                        <div style={{ fontFamily: "'Google Sans Flex', sans-serif", fontSize: "14px", fontWeight: 500, color: "#1a1a1a" }}>
+                          {entry.label}
+                        </div>
+                        <div style={{ fontFamily: "'Google Sans Flex', sans-serif", fontSize: "12px", color: "#5f6368", marginTop: "2px" }}>
+                          {entry.desc}
+                        </div>
                       </div>
-                      <div style={{ fontFamily: "'Google Sans Flex', sans-serif", fontSize: "12px", color: "#5f6368", marginTop: "2px" }}>
-                        {entry.desc}
-                      </div>
-                    </div>
-                  </a>
-                ))}
+                    </Link>
+                  );
+                })}
               </div>
             )}
           </div>
@@ -153,7 +157,9 @@ export function Header() {
       </nav>
 
       <a
-        href="#"
+        href="https://claude.com/download"
+        target="_blank"
+        rel="noopener noreferrer"
         className="hidden md:flex items-center gap-2 rounded-full transition-opacity hover:opacity-90 active:scale-95"
         style={{
           backgroundColor: "#1a1a1a",
