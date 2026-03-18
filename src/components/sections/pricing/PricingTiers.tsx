@@ -10,7 +10,7 @@ const plans = [
     name: "Free",
     price: "$0",
     period: "forever",
-    desc: "For solo developers exploring Antigravity.",
+    desc: "For solo shoppers exploring YOGII.",
     cta: "Get started",
     ctaStyle: { backgroundColor: "#f1f3f4", color: "#1a1a1a" },
     icon: Zap,

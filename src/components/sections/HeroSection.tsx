@@ -1,26 +1,19 @@
 "use client";
 import { ParticleField } from "@/components/effects/ParticleField";
+import { ShoppingBag } from "lucide-react";
 
-function AIcon() {
+function YIcon() {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-      <path d="M12 2L4 20h4l1.5-4h5l1.5 4h4L12 2z" fill="url(#hero-a)" />
+      <path d="M4 2l8 10 8-10M12 12v10" stroke="url(#hero-y)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
       <defs>
-        <linearGradient id="hero-a" x1="4" y1="2" x2="20" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="hero-y" x1="4" y1="2" x2="20" y2="22" gradientUnits="userSpaceOnUse">
           <stop offset="0%" stopColor="#4285f4" />
           <stop offset="33%" stopColor="#ea4335" />
           <stop offset="66%" stopColor="#fbbc04" />
           <stop offset="100%" stopColor="#34a853" />
         </linearGradient>
       </defs>
-    </svg>
-  );
-}
-
-function WindowsIcon() {
-  return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M0 3.5L10 2v10H0V3.5zM11.5 1.8L24 0v12H11.5V1.8zM0 13h10v10L0 21.5V13zM11.5 13H24v12l-12.5-1.8V13z" />
     </svg>
   );
 }
@@ -39,9 +32,9 @@ export function HeroSection() {
           className="flex items-center gap-2 mb-10"
           style={{ animation: "float-up 0.7s ease-out 0.1s both" }}
         >
-          <AIcon />
+          <YIcon />
           <span style={{ fontFamily: "'Google Sans Flex', sans-serif", fontSize: "16px", fontWeight: 500, color: "#1a1a1a" }}>
-            Google <span style={{ fontWeight: 400 }}>Antigravity</span>
+            YOGII
           </span>
         </div>
 
@@ -58,9 +51,9 @@ export function HeroSection() {
             animation: "float-up 0.7s ease-out 0.2s both",
           }}
         >
-          Experience liftoff with the
+          Elevate your everyday
           <br />
-          next-generation IDE
+          comfort
         </h1>
 
         {/* CTAs */}
@@ -69,7 +62,9 @@ export function HeroSection() {
           style={{ animation: "float-up 0.7s ease-out 0.35s both" }}
         >
           <a
-            href="#"
+            href="https://www.trendyol.com/magaza/yogii-m-575813"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2.5 rounded-full transition-opacity hover:opacity-90"
             style={{
               backgroundColor: "#1a1a1a",
@@ -80,11 +75,11 @@ export function HeroSection() {
               padding: "14px 28px",
             }}
           >
-            <WindowsIcon />
-            Download for Windows
+            <ShoppingBag size={14} />
+            Shop Now
           </a>
           <a
-            href="#"
+            href="#features"
             className="flex items-center gap-2 rounded-full transition-colors"
             style={{
               backgroundColor: "#f1f3f4",
@@ -97,7 +92,7 @@ export function HeroSection() {
             onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#e8eaed")}
             onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#f1f3f4")}
           >
-            Explore use cases
+            Browse Collection
           </a>
         </div>
       </div>

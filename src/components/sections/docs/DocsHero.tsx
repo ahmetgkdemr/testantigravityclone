@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Search, Github } from "lucide-react";
+import { Search, ExternalLink } from "lucide-react";
 
 export default function DocsHero() {
   const [search, setSearch] = useState("");
@@ -65,7 +65,7 @@ export default function DocsHero() {
             />
           </div>
           <a
-            href="https://github.com/anthropics/claude-code"
+            href="https://www.trendyol.com/magaza/yogii-m-575813"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 rounded-lg px-4 py-3 transition-colors"
@@ -81,8 +81,8 @@ export default function DocsHero() {
             onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "rgba(0,0,0,0.08)")}
             onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "rgba(0,0,0,0.05)")}
           >
-            <Github size={16} />
-            GitHub
+            <ExternalLink size={16} />
+            Trendyol Store
           </a>
         </div>
       </div>

@@ -27,7 +27,7 @@ export default function BlogHero() {
             lineHeight: 1.18,
           }}
         >
-          From the Antigravity team
+          From the YOGII team
         </h1>
       </div>
     </section>

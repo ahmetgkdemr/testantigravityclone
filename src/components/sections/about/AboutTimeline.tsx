@@ -5,28 +5,28 @@ import { motion } from "framer-motion";
 const milestones = [
   {
     year: "2023",
-    title: "Founded Antigravity",
-    desc: "Started with a vision to fundamentally change how developers interact with their code.",
+    title: "Founded YOGII",
+    desc: "Started with a vision to create comfort wear that doesn't compromise on style or quality.",
+  },
+  {
+    year: "2023",
+    title: "First collection launch",
+    desc: "Released our debut collection of 20 essential pieces. The response from customers was incredible.",
   },
   {
     year: "2024",
-    title: "Beta launch",
-    desc: "Released to 10,000 beta testers. The response was overwhelming—developers loved it.",
+    title: "Trendyol partnership",
+    desc: "Partnered with Trendyol to bring YOGII to a wider audience across Turkey and beyond.",
   },
   {
     year: "2024",
-    title: "Series A funding",
-    desc: "Raised $50M Series A led by top-tier investors to accelerate our mission globally.",
+    title: "Launched YOGII Premium",
+    desc: "Introduced our premium line featuring organic cotton and sustainable materials.",
   },
   {
     year: "2025",
-    title: "Production launch",
-    desc: "Officially launched Antigravity to the world. Now used by thousands of developers daily.",
-  },
-  {
-    year: "2025",
-    title: "Enterprise expansion",
-    desc: "Launched enterprise features and partnerships with leading software companies.",
+    title: "50,000 happy customers",
+    desc: "Reached a milestone of 50k customers and expanded to 15 collections across all categories.",
   },
 ];
 

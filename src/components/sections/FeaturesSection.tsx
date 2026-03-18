@@ -5,7 +5,7 @@ const features = [
   {
     icon: <Zap size={20} />,
     title: "AI-native editing",
-    desc: "Every keystroke is model-aware. Antigravity predicts your next move across files, tests, and configs.",
+    desc: "Every keystroke is model-aware. YOGII predicts your next move across files, tests, and configs.",
   },
   {
     icon: <Layers size={20} />,
@@ -30,7 +30,7 @@ const features = [
   {
     icon: <RefreshCw size={20} />,
     title: "Continuous learning",
-    desc: "Antigravity learns your codebase conventions and improves with every session.",
+    desc: "YOGII learns your codebase conventions and improves with every session.",
   },
 ];
 

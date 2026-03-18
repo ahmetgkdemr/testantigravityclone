@@ -5,34 +5,34 @@ import { motion } from "framer-motion";
 
 const docSections = [
   {
-    title: "Installation",
-    description: "Get Claude Code installed and configured for your environment.",
-    href: "#installation",
+    title: "Size Guide",
+    description: "Find your perfect fit with our detailed measurement charts.",
+    href: "#size-guide",
   },
   {
-    title: "Configuration",
-    description: "Customize settings, API keys, and privacy preferences.",
-    href: "#configuration",
+    title: "Materials",
+    description: "Learn about the premium fabrics and sustainable materials we use.",
+    href: "#materials",
   },
   {
-    title: "AI Commands",
-    description: "Learn all the commands available for AI-assisted development.",
-    href: "#commands",
+    title: "Care Instructions",
+    description: "Keep your YOGII pieces looking fresh with proper care.",
+    href: "#care",
   },
   {
-    title: "Agent Workflows",
-    description: "Create and run autonomous agents for complex tasks.",
-    href: "#agents",
+    title: "Shipping & Returns",
+    description: "Everything you need to know about delivery and returns.",
+    href: "#shipping",
   },
   {
-    title: "API Reference",
-    description: "Complete API documentation for integrations and plugins.",
-    href: "#api",
+    title: "Styling Tips",
+    description: "Outfit inspiration and ways to wear your YOGII collection.",
+    href: "#styling",
   },
   {
-    title: "Keyboard Shortcuts",
-    description: "Master keyboard shortcuts to maximize your productivity.",
-    href: "#shortcuts",
+    title: "FAQ",
+    description: "Answers to the most common questions from our customers.",
+    href: "#faq",
   },
 ];
 

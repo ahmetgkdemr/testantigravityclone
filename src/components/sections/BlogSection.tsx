@@ -2,7 +2,7 @@
 const posts = [
   {
     tag: "Product",
-    title: "Introducing multi-file agents in Antigravity",
+    title: "Introducing multi-file agents in YOGII",
     desc: "Today we're launching the ability to run agents that autonomously plan and execute changes across your entire repository.",
     date: "Mar 12, 2026",
     readTime: "5 min read",
@@ -10,7 +10,7 @@ const posts = [
   {
     tag: "Engineering",
     title: "How we built a 200k-token context window for code",
-    desc: "A deep dive into the infrastructure and model techniques that allow Antigravity to hold your whole project in context.",
+    desc: "A deep dive into the infrastructure and model techniques that allow YOGII to hold your whole project in context.",
     date: "Feb 28, 2026",
     readTime: "8 min read",
   },

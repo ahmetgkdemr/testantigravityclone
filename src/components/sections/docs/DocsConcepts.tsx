@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 
 const concepts = [
   {
-    title: "Context Window",
+    title: "Premium Materials",
     description:
-      "Claude Code uses a 200K token context window, allowing it to understand your entire codebase at once. This means better decisions, fewer mistakes, and more accurate suggestions across your entire project.",
+      "YOGII products are crafted from carefully sourced materials — organic cotton, bamboo blends, and performance fabrics. Each material is chosen for its softness, durability, and breathability to ensure all-day comfort.",
   },
   {
-    title: "Agent Sessions",
+    title: "Care Instructions",
     description:
-      "An agent session is a continuous conversation with Claude about your code. You can ask multiple questions, build on previous answers, and have Claude make coordinated changes across multiple files.",
+      "Proper care extends the life of your garments. Machine wash cold inside-out, air dry when possible, and avoid harsh detergents. Our fabrics are pre-shrunk and designed to maintain their shape wash after wash.",
   },
   {
-    title: "Model Selection",
+    title: "Sizing Philosophy",
     description:
-      "Choose between different Claude models for different tasks. Larger models are more capable but slower, while smaller models are faster. Select based on your needs and latency requirements.",
+      "We design for real bodies with a relaxed, modern fit. Our sizing runs true-to-size with extra room for movement. Check our size guide for detailed measurements, and when in doubt, size up for a more relaxed feel.",
   },
 ];
 

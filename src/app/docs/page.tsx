@@ -5,8 +5,8 @@ import DocsNavCards from "@/components/sections/docs/DocsNavCards";
 import DocsConcepts from "@/components/sections/docs/DocsConcepts";
 
 export const metadata = {
-  title: "Documentation | Google Antigravity",
-  description: "Complete guide to using Claude Code with installation, configuration, API reference, and tutorials.",
+  title: "Documentation | YOGII",
+  description: "Complete guide to YOGII products — sizing, care instructions, materials, and styling tips.",
 };
 
 export default function DocsPage() {

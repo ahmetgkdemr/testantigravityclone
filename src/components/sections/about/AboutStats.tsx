@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { label: "Developers", value: "120k+" },
-  { label: "Companies", value: "4,200+" },
-  { label: "AI Models", value: "12" },
-  { label: "Uptime", value: "99.9%" },
+  { label: "Happy Customers", value: "50k+" },
+  { label: "Products", value: "200+" },
+  { label: "Collections", value: "15" },
+  { label: "Rating", value: "4.8\u2605" },
 ];
 
 export default function AboutStats() {

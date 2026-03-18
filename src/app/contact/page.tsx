@@ -4,7 +4,7 @@ import ContactForm from "@/components/sections/contact/ContactForm";
 import ContactFAQ from "@/components/sections/contact/ContactFAQ";
 
 export const metadata = {
-  title: "Contact | Google Antigravity",
+  title: "Contact | YOGII",
   description: "Get in touch with our team. We're here to help with questions, feedback, and support.",
 };
 

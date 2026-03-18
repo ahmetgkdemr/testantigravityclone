@@ -18,8 +18,8 @@ export function DescriptionSection() {
             color: "#1a1a1a",
           }}
         >
-          Google Antigravity is our agentic development platform, evolving the
-          IDE into the agent-first era.
+          YOGII is your destination for premium comfort wear, designed to
+          move with you through every moment of your day.
         </p>
       </div>
     </section>

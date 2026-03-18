@@ -8,7 +8,7 @@ const channels = [
   {
     icon: <Mail size={20} />,
     label: "Email",
-    value: "support@antigravity.dev",
+    value: "support@yogii.com",
     desc: "We respond within 24 hours",
   },
   {
@@ -20,7 +20,7 @@ const channels = [
   {
     icon: <Building2 size={20} />,
     label: "Enterprise",
-    value: "sales@antigravity.dev",
+    value: "sales@yogii.com",
     desc: "Custom support available",
   },
 ];

@@ -56,7 +56,7 @@ export default function CTASection() {
                 lineHeight: 1.2,
               }}
             >
-              Ready to build with Antigravity?
+              Ready to experience YOGII?
             </h2>
 
             <p

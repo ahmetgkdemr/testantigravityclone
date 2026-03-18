@@ -13,7 +13,7 @@ export function PromptSection() {
       >
         Try the AI assistant
       </h2>
-      <PromptInputBox placeholder="Ask Antigravity anything..." />
+      <PromptInputBox placeholder="Ask YOGII anything..." />
     </section>
   );
 }

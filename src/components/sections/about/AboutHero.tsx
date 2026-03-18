@@ -30,7 +30,7 @@ export default function AboutHero() {
             lineHeight: 1.18,
           }}
         >
-          Rethinking how developers work with code
+          Redefining everyday comfort
         </h1>
         <p
           className="mb-12"
@@ -43,7 +43,7 @@ export default function AboutHero() {
             margin: "0 auto 32px",
           }}
         >
-          We believe the future of software development is collaborative between humans and AI. Our mission is to amplify developer creativity and accelerate the pace of innovation.
+          We believe comfort and style should never be a compromise. Our mission is to create premium everyday wear that moves with you, crafted from the finest materials with attention to every detail.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
@@ -62,7 +62,7 @@ export default function AboutHero() {
             Contact us
           </Link>
           <a
-            href="https://claude.com"
+            href="https://www.trendyol.com/magaza/yogii-m-575813"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full px-6 py-3 transition-all hover:bg-opacity-90"
@@ -77,7 +77,7 @@ export default function AboutHero() {
               textAlign: "center",
             }}
           >
-            Try Claude Code
+            Visit our Trendyol Store
           </a>
         </div>
       </div>

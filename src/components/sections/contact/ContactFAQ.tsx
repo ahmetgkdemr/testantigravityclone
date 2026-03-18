@@ -6,34 +6,34 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "What's the best way to report a bug?",
+    question: "What is your return policy?",
     answer:
-      "Use our bug report form at support.antigravity.dev with as much detail as possible. Include your system info, reproduction steps, and any error messages. Screenshots or videos are helpful too.",
+      "We offer a 30-day return policy for all unused items in original packaging. Visit support.yogii.com to initiate a return. Refunds are processed within 5-7 business days.",
   },
   {
-    question: "How long does it take to get a response?",
+    question: "How long does shipping take?",
     answer:
-      "Our support team typically responds within 24 hours. Priority support with a 1-hour SLA is available on enterprise plans. For urgent issues, you can use our chat support channel.",
+      "Standard shipping takes 3-5 business days within Turkey. Express shipping (1-2 business days) is available at checkout. International shipping times vary by destination.",
   },
   {
-    question: "Do you offer phone support?",
+    question: "How do I find my size?",
     answer:
-      "Phone support is available for Enterprise customers. For other plans, we support email, chat, and our community forum. You can schedule a call with our team during business hours.",
+      "Check our detailed size guide at docs.yogii.com. We include measurements for chest, waist, hips, and length for every product. If you're between sizes, we recommend sizing up for a relaxed fit.",
   },
   {
-    question: "How do I request a feature?",
+    question: "Do you offer exchanges?",
     answer:
-      "You can request features through our feedback portal or in our community forum. We review all suggestions and prioritize them based on user demand and our product roadmap.",
+      "Yes! If your item doesn't fit, you can exchange it for a different size within 30 days. Contact us at support@yogii.com to arrange an exchange.",
   },
   {
-    question: "Is there a knowledge base or documentation?",
+    question: "How do I care for my YOGII products?",
     answer:
-      "Yes! We have comprehensive documentation at docs.antigravity.dev with guides, API reference, tutorials, and FAQs. Most common questions are answered there.",
+      "Most of our products are machine washable at 30\u00B0C. We recommend washing inside-out and air drying to maintain the fabric quality. Check the care label on each garment for specific instructions.",
   },
   {
-    question: "Can I schedule a demo or training session?",
+    question: "Can I schedule a styling consultation?",
     answer:
-      "Absolutely. Contact our team at sales@antigravity.dev to schedule a demo or arrange custom training for your team. We also offer onboarding sessions for new accounts.",
+      "Absolutely. Contact our team at sales@yogii.com to schedule a personal styling session. We also offer virtual consultations for bulk or corporate orders.",
   },
 ];
 

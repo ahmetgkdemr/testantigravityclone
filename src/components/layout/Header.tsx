@@ -1,29 +1,29 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import { ChevronDown, Download, Zap, Layers, Terminal, BookOpen, Video, FileText, HelpCircle, Users } from "lucide-react";
+import { ChevronDown, ShoppingBag, Shirt, Watch, Gem, Palette, BookOpen, Video, FileText, HelpCircle } from "lucide-react";
 
 const DROPDOWNS: Record<string, { icon: React.ReactNode; label: string; desc: string }[]> = {
-  "Use Cases": [
-    { icon: <Zap size={15} />, label: "AI Code Generation", desc: "Write, refactor, and debug with AI" },
-    { icon: <Layers size={15} />, label: "Multi-file Editing", desc: "Coordinated changes across your codebase" },
-    { icon: <Terminal size={15} />, label: "Agent Workflows", desc: "Automate complex dev tasks end-to-end" },
-    { icon: <Users size={15} />, label: "Team Collaboration", desc: "Share context and sessions with your team" },
+  "Collections": [
+    { icon: <Shirt size={15} />, label: "Comfort Wear", desc: "Everyday essentials designed for movement" },
+    { icon: <Watch size={15} />, label: "Accessories", desc: "Complete your look with curated pieces" },
+    { icon: <Gem size={15} />, label: "Premium Line", desc: "Elevated fabrics and exclusive designs" },
+    { icon: <Palette size={15} />, label: "New Arrivals", desc: "Fresh drops and seasonal favorites" },
   ],
   "Resources": [
-    { icon: <BookOpen size={15} />, label: "Documentation", desc: "Guides, API reference, and examples" },
-    { icon: <Video size={15} />, label: "Video Tutorials", desc: "Step-by-step walkthroughs" },
-    { icon: <FileText size={15} />, label: "Blog", desc: "Updates, deep dives, and engineering stories" },
-    { icon: <HelpCircle size={15} />, label: "Support", desc: "Community forum and help center" },
+    { icon: <BookOpen size={15} />, label: "Size Guide", desc: "Find your perfect fit" },
+    { icon: <Video size={15} />, label: "Styling Tips", desc: "Outfit inspiration and how-to guides" },
+    { icon: <FileText size={15} />, label: "Blog", desc: "Stories, trends, and brand updates" },
+    { icon: <HelpCircle size={15} />, label: "Support", desc: "Help center and customer care" },
   ],
 };
 
-function AIcon({ size = 22 }: { size?: number }) {
+function YIcon({ size = 22 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
-      <path d="M12 2L4 20h4l1.5-4h5l1.5 4h4L12 2z" fill="url(#nav-a)" />
+      <path d="M4 2l8 10 8-10M12 12v10" stroke="url(#nav-y)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
       <defs>
-        <linearGradient id="nav-a" x1="4" y1="2" x2="20" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nav-y" x1="4" y1="2" x2="20" y2="22" gradientUnits="userSpaceOnUse">
           <stop offset="0%" stopColor="#4285f4" />
           <stop offset="33%" stopColor="#ea4335" />
           <stop offset="66%" stopColor="#fbbc04" />
@@ -49,7 +49,7 @@ export function Header() {
 
   const NAV = [
     { label: "Product", href: "#features" },
-    { label: "Use Cases", dropdown: true },
+    { label: "Collections", dropdown: true },
     { label: "Pricing", href: "/pricing" },
     { label: "Blog", href: "/blog" },
     { label: "Resources", dropdown: true },
@@ -66,9 +66,9 @@ export function Header() {
       }}
     >
       <Link href="/" className="flex items-center gap-2 select-none">
-        <AIcon />
+        <YIcon />
         <span style={{ fontFamily: "'Google Sans Flex', sans-serif", fontSize: "15px", fontWeight: 500, color: "#1a1a1a", letterSpacing: "-0.01em" }}>
-          Google <span style={{ fontWeight: 400 }}>Antigravity</span>
+          YOGII
         </span>
       </Link>
 
@@ -128,7 +128,7 @@ export function Header() {
                 }}
               >
                 {DROPDOWNS[item.label]?.map((entry) => {
-                  const href = entry.label === "Documentation" ? "/docs" : entry.label === "Support" ? "/contact" : entry.label === "Blog" ? "/blog" : "#";
+                  const href = entry.label === "Size Guide" ? "/docs" : entry.label === "Support" ? "/contact" : entry.label === "Blog" ? "/blog" : "#";
                   return (
                     <Link
                       key={entry.label}
@@ -157,7 +157,7 @@ export function Header() {
       </nav>
 
       <a
-        href="https://claude.com/download"
+        href="https://www.trendyol.com/magaza/yogii-m-575813"
         target="_blank"
         rel="noopener noreferrer"
         className="hidden md:flex items-center gap-2 rounded-full transition-opacity hover:opacity-90 active:scale-95"
@@ -171,8 +171,8 @@ export function Header() {
           textDecoration: "none",
         }}
       >
-        <Download size={13} />
-        Download
+        <ShoppingBag size={13} />
+        Shop Now
       </a>
     </header>
   );

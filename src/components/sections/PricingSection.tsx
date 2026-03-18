@@ -7,7 +7,7 @@ const plans = [
     name: "Personal",
     price: "Free",
     period: "",
-    desc: "For solo developers exploring Antigravity.",
+    desc: "For solo shoppers exploring YOGII.",
     cta: "Get started",
     ctaStyle: { backgroundColor: "#f1f3f4", color: "#1a1a1a" },
     features: ["50 AI requests / day", "Single-file agent", "Integrated terminal", "Community support"],

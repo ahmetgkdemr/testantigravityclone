@@ -13,7 +13,7 @@ const faqs = [
   {
     question: "What's included in the free trial?",
     answer:
-      "The 14-day free trial gives you full access to the Pro plan features, so you can experience the full power of Antigravity before committing. No credit card required.",
+      "The 14-day free trial gives you full access to the Pro plan features, so you can experience the full power of YOGII before committing. No credit card required.",
   },
   {
     question: "Do you offer annual billing discounts?",
@@ -23,12 +23,12 @@ const faqs = [
   {
     question: "Is there a free tier for students or open source?",
     answer:
-      "We offer special pricing for students, educators, and open source projects. Apply through our community program at antigravity.dev/community.",
+      "We offer special pricing for students and educators. Apply through our community program at yogii.com/community.",
   },
   {
     question: "What happens to my data if I cancel?",
     answer:
-      "Your data remains accessible for 30 days after cancellation. You can download all your work during this period. After 30 days, your data will be permanently deleted.",
+      "Your data remains accessible for 30 days after cancellation. You can download all your information during this period. After 30 days, your data will be permanently deleted.",
   },
   {
     question: "Do Enterprise plans include support?",
@@ -36,14 +36,14 @@ const faqs = [
       "Yes, all Enterprise plans include dedicated support with a response time of 1 hour during business hours. We also offer SLA guarantees and a dedicated account manager.",
   },
   {
-    question: "Can I use Antigravity for commercial projects?",
+    question: "Can I use YOGII for commercial projects?",
     answer:
-      "Absolutely. Both Free and Pro plans can be used for commercial work. Enterprise plans come with additional commercial licensing options if needed.",
+      "Absolutely. Both Free and Pro plans can be used for commercial purposes. Enterprise plans come with additional commercial licensing options if needed.",
   },
   {
     question: "Do you offer volume discounts for teams?",
     answer:
-      "Yes. For teams of 10+ members, we offer special volume pricing. Contact our sales team at sales@antigravity.dev for a custom quote.",
+      "Yes. For teams of 10+ members, we offer special volume pricing. Contact our sales team at sales@yogii.com for a custom quote.",
   },
 ];
 

@@ -5,24 +5,24 @@ import DocsCodeBlock from "./DocsCodeBlock";
 
 const steps = [
   {
-    title: "Install Claude Code",
-    description: "Download and install Claude Code for your platform.",
-    code: "npm install -g @anthropic/claude-code\n# or download from claude.com/download",
+    title: "Find your size",
+    description: "Use our size chart to determine the best fit for your body type.",
+    code: "Chest: S(90-95cm) M(96-101cm) L(102-107cm) XL(108-113cm)\nWaist: S(74-79cm) M(80-85cm) L(86-91cm) XL(92-97cm)\nHips:  S(90-95cm) M(96-101cm) L(102-107cm) XL(108-113cm)",
   },
   {
-    title: "Sign in with your account",
-    description: "Authenticate with your Claude account to get started.",
-    code: "claude login\n# Follow the browser prompt to authorize",
+    title: "Choose your style",
+    description: "Browse our collections and pick pieces that match your lifestyle.",
+    code: "Collections:\n- Everyday Essentials (basics, tees, joggers)\n- Active Comfort (performance wear)\n- Premium Line (organic cotton, linen blends)\n- Accessories (caps, bags, socks)",
   },
   {
-    title: "Open your project",
-    description: "Navigate to your project directory and open it with Claude Code.",
-    code: "cd /path/to/your/project\nclaude open",
+    title: "Place your order",
+    description: "Add items to your cart on Trendyol and complete checkout.",
+    code: "Visit: trendyol.com/magaza/yogii-m-575813\n# Free shipping on orders over 500 TL\n# Easy returns within 30 days",
   },
   {
-    title: "Start coding with AI",
-    description: "Use natural language to ask Claude to edit, generate, or refactor your code.",
-    code: '// In the chat, you can say:\n"Create a React component for a user profile card"\n"Add error handling to this function"\n"Write tests for this API endpoint"',
+    title: "Care for your garments",
+    description: "Follow our care instructions to keep your YOGII pieces looking fresh.",
+    code: "Washing: Machine wash cold (30°C), inside-out\nDrying:  Air dry flat, avoid direct sunlight\nIroning: Low heat if needed, avoid prints\nStorage: Fold neatly, avoid hanging knits",
   },
 ];
 

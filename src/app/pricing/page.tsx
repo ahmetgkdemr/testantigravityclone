@@ -6,7 +6,7 @@ import PricingFAQ from "@/components/sections/pricing/PricingFAQ";
 import CTASection from "@/components/sections/pricing/CTASection";
 
 export const metadata = {
-  title: "Pricing | Google Antigravity",
+  title: "Pricing | YOGII",
   description: "Flexible pricing plans for individuals and teams. Choose the plan that fits your needs.",
 };
 

@@ -3,8 +3,8 @@ import BlogHero from "@/components/sections/blog/BlogHero";
 import BlogGrid from "@/components/sections/blog/BlogGrid";
 
 export const metadata = {
-  title: "Blog | Google Antigravity",
-  description: "Read the latest articles, updates, and engineering stories from the Antigravity team.",
+  title: "Blog | YOGII",
+  description: "Read the latest articles, updates, and style stories from the YOGII team.",
 };
 
 export default function BlogPage() {

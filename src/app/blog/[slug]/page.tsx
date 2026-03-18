@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const post = getBlogPost(params.slug);
   if (!post) return { title: "Not Found" };
   return {
-    title: `${post.title} | Google Antigravity`,
+    title: `${post.title} | YOGII`,
     description: post.excerpt,
   };
 }

@@ -6,8 +6,8 @@ import AboutValues from "@/components/sections/about/AboutValues";
 import AboutTimeline from "@/components/sections/about/AboutTimeline";
 
 export const metadata = {
-  title: "About | Google Antigravity",
-  description: "Learn about our mission to transform how developers work with code using AI.",
+  title: "About | YOGII",
+  description: "Learn about our mission to redefine everyday comfort with premium quality products.",
 };
 
 export default function AboutPage() {

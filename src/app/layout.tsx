@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Google Antigravity",
-  description: "Google Antigravity - Build the new way",
+  title: "YOGII",
+  description: "YOGII - Elevate your everyday comfort",
   openGraph: {
-    title: "Google Antigravity",
-    description: "Google Antigravity - Build the new way",
+    title: "YOGII",
+    description: "YOGII - Elevate your everyday comfort",
     type: "website",
   },
 };
